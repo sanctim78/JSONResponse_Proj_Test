@@ -14,6 +14,7 @@
 	<li><a href="json02.do">json 응답2</a></li>
 	<li><a href="json03.do">json 응답3</a></li>
 	<li><a href="json04.do">json 응답4</a></li>
+	<li><a href="json05.do">json 응답5</a></li>
 </ul>
 <h4>공지사항</h4>
 <ul>

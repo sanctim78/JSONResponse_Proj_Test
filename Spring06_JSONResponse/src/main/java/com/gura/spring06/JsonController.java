@@ -11,8 +11,19 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class JsonController {
-	
-	
+	@RequestMapping("/json05")
+	@ResponseBody
+	public Map<String,List<String>> json05(){
+		List<String> names=new ArrayList<>();
+		names.add("김구라");
+		names.add("해골");
+		names.add("원숭이");
+		
+		Map<String,List<String>> map=new HashMap<>();
+		map.put("names", names);
+		return map;
+	}
+
 	@RequestMapping("/json04")
 	@ResponseBody
 	public List<String> json04(){
