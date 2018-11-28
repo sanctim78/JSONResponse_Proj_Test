@@ -17,6 +17,7 @@
 	<li><a href="json05.do">json 응답5</a></li>
 	<li><a href="json06.do">json 응답6</a></li>
 	<li><a href="json07.do">json 응답7</a></li>
+	<li><a href="json08.do">json 응답8</a></li>
 </ul>
 <h4>공지사항</h4>
 <ul>
