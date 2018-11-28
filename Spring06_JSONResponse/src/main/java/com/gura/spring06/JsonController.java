@@ -12,6 +12,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class JsonController {
 	
+	@RequestMapping("/json07")
+	@ResponseBody
+	public MemberDto json07() {
+		MemberDto dto=new MemberDto(1, "김구라", "노량진");
+		return dto;
+	}
+	
 	@RequestMapping("/json06")
 	@ResponseBody
 	public List<Map<String, Object>> json06(){
