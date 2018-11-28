@@ -10,6 +10,16 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class JsonController {
 	
+	@RequestMapping("/json03")
+	@ResponseBody
+	public Map<String, Object> json03(){
+		Map<String, Object> map=new HashMap<>();
+		map.put("num", 1);
+		map.put("name", "gura");
+		map.put("isMan", true);
+		return map;
+	}
+	
 	@RequestMapping("/json01")
 	public String json01() {
 		// /WEB-INF/views/json01.jsp 페이지로 forward 이동해서 
