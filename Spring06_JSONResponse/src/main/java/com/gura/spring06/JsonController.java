@@ -1,6 +1,8 @@
 package com.gura.spring06;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import org.springframework.stereotype.Controller;
@@ -9,6 +11,18 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class JsonController {
+	
+	
+	@RequestMapping("/json04")
+	@ResponseBody
+	public List<String> json04(){
+		List<String> names=new ArrayList<>();
+		names.add("김구라");
+		names.add("해골");
+		names.add("원숭이");
+		
+		return names;
+	}
 	
 	@RequestMapping("/json03")
 	@ResponseBody
