@@ -19,6 +19,7 @@
 	<li><a href="json07.do">json 응답7</a></li>
 	<li><a href="json08.do">json 응답8</a></li>
 	<li><a href="xml01.do">xml 응답1</a></li>
+	<li><a href="xml02.do">xml 응답2</a></li>
 </ul>
 <h4>공지사항</h4>
 <ul>
