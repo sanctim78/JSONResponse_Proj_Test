@@ -22,6 +22,18 @@ public class XmlController {
 		return d;
 	}
 	
+	@RequestMapping("/xml03")
+	@ResponseBody
+	public Friend xml03() {
+		
+		Friend f=new Friend();
+		f.setNum(1);
+		f.setName("김구라");
+		f.setMan(true);
+		
+		return f;
+	}
+	
 }
 
 
