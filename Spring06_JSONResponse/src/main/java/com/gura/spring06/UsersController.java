@@ -1,6 +1,8 @@
 package com.gura.spring06;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import org.springframework.stereotype.Controller;
@@ -25,6 +27,17 @@ public class UsersController {
 			map.put("canUse", true);
 		}
 		return map;
+	}
+	
+	@RequestMapping("/friendlist")
+	@ResponseBody
+	public List<String> friendList(){
+		List<String> names=new ArrayList<>();
+		names.add("김구라");
+		names.add("해골");
+		names.add("원숭이");
+		
+		return names;
 	}
 	
 }
