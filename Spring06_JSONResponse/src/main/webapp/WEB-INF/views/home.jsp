@@ -10,7 +10,7 @@
 </head>
 <body>
 <h3>인덱스 페이지 입니다.</h3>
-<ul>
+<ul> 
 	<li><a href="json01.do">json 응답1</a></li>
 	<li><a href="json02.do">json 응답2</a></li>
 	<li><a href="json03.do">json 응답3</a></li>
