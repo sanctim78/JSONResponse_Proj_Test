@@ -24,7 +24,7 @@
 	<li><a href="xml03.do">xml 응답3</a></li>
 	<li><a href="xml04.do">xml 응답4</a></li>
 	<li><a href="users/signup_form.do">회원가입폼예제</a></li>
-	<li><a href="download.do">파일 다운로드(abstract view 테스트)</a></li>
+	<li><a href="download.do?num=1000">파일 다운로드(abstract view 테스트)</a></li>
 	
 </ul>
 <h3>친구목록입니다.</h3>
